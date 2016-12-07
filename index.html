@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Kwick</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+  	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  	<link rel="stylesheet" href="css/main.css">
+  	<link rel="stylesheet" href="css/animate.css">
+</head>
+
+<body>
+	<section class="col-md-12 header">
+		
+			<div class="col-md-6 logo">
+				<h1>Kwick</h1>
+			</div>
+			<div class="col-md-6 deconnexion">
+				
+			</div>
+	</section>
+
+	<div class="container">
+
+		
+		
+		<section class="col-md-6 col-md-offset-3 text-center btn-connexion">	
+			<h3 style="color:white;padding-bottom:1rem;">Kwick-Chat</h3>
+			<hr>
+			<div class="row">
+
+				<button type="button" class="btn btn-primary gauche" data-toggle="modal" data-target="#modal-inscription">Inscription</button>
+				<button type="button" class="btn btn-primary droite" data-toggle="modal" data-target="#modal-connexion">Connexion</button>
+
+				
+				<!-- Modal inscription-->
+					<div class="modal fade text-center col-md-0 col-md-offset-0 animated flipInX" id="modal-inscription" tabindex="-1" role="dialog" aria-labelledby="Incription">
+						<div class="modal-dialog modal-inscription " role="document">
+		  					<h2 style="color:#fff;">Inscription</h2>
+							<form action="#" name="login" role="form" class="form-horizontal" method="post" accept-charset="utf-8" id="inc-form">
+			                <div class="form-group">
+			                	<div class="col-md-6 col-md-offset-3"><input name="username" placeholder="Identifiant" class="form-control" type="text" id="Pseudo"/></div>
+			                </div> 
+			                
+			                <div class="form-group">
+			                	<div class="col-md-6 col-md-offset-3"><input name="password" placeholder="Mot de passe" class="form-control" type="password" id="Password"/></div>
+			                </div> 
+			                
+			                <div class="form-group">
+				                <div class="col-md-6 col-md-offset-3">
+				                	<input  class="btn btn-success btn btn-success" type="submit" value="Incription" id="submit-inc"/>
+				                
+				                </div>
+			                </div>
+			                <div id="error-inscription"></div>
+				            </form>
+						</div>
+					</div>
+					<!-- Fin inscription-->
+					<!-- Modal Connexion-->
+					<div class="modal fade col-md-0 col-md-offset-0 text-center animated flipInX" id="modal-connexion" tabindex="-1" role="dialog" aria-labelledby="Connexion">
+						<div class="modal-dialog modal-connexion " role="document">
+		  					<h2 style="color:#fff;">Connexion</h2>
+							<form action="#" name="login" role="form" class="form-horizontal" method="post" accept-charset="utf-8" id="connect-form">
+			                <div class="form-group">
+			                	<div class="col-md-6 col-md-offset-3"><input name="username" placeholder="Identifiant" class="form-control" type="text" id="pseudo_connect"/></div>
+			                </div> 
+			                
+			                <div class="form-group">
+			                	<div class="col-md-6 col-md-offset-3">
+			                		<input name="password" placeholder="Mot de passe" class="form-control" type="password" id="password_connect"/></div>
+			                </div> 
+			               
+			                <div class="form-group">
+				                <div class="col-md-6 col-md-offset-3">
+				                	<input  class="btn btn-success btn btn-success" type="submit" value="Se Connecter" id="submit-connect"/>
+				                </div>
+			                </div>
+			                 <div id="error"></div>
+				            </form>
+						</div>
+					</div>
+					<!-- Fin connexion-->
+			</div>
+		</div>
+	</section>
+
+	<!-- SCRIPTS -->
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/jquery-dateFormat/dist/jquery-dateFormat.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="js/app.js"></script>
+
+	
+</body>
+</html>

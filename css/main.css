@@ -1,0 +1,135 @@
+body{
+    background:#fff;
+    color: #3C3B3B;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    background: #3C3B3B;
+    color: #fff;
+}
+.deconnexion{
+    text-align: right;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+.btn-connexion{
+    -moz-box-shadow: 0px 2px 10px 0px #010066;
+-webkit-box-shadow: 0px 2px 10px 0px #010066;
+-o-box-shadow: 0px 2px 10px 0px #010066;
+box-shadow: 0px 2px 10px 0px #010066;
+filter:progid:DXImageTransform.Microsoft.Shadow(color=#010066, Direction=180, Strength=10);
+        margin-top: 10%;
+    background: #3C3B3B;
+    padding: 3rem;
+}
+.error{
+	background:red;
+    padding:2rem;
+	color:#fff;
+	font-weight: bold;
+}
+
+.modal-inscription {
+	background-size: contain;
+    padding: 3rem;
+    margin-top: 120px;
+    background: #3C3B3B;
+}
+.modal-connexion {
+	background-size: contain;
+    padding: 3rem;
+    margin-top: 120px;
+    background: #585858;
+}
+.tchat h3 {
+    color:#fff;
+    margin: 0;
+    background: #3C3B3B;
+    text-align: center;
+    padding: 1rem;
+}
+.tchat-deco {
+    background: rgba(212, 212, 212, 0.52);
+    padding: 25px;
+    overflow: scroll;
+    max-height: 350px;
+}
+.texte {
+    color:#3C3B3B;
+    padding: 1rem ;
+}
+.envoyer {
+    border: 0;
+    border-radius: 0;
+    padding: 1.1rem;
+    color: #000000;
+    background: #00E045;
+}
+.tchat,.membre{
+    margin-top: 5rem   ;
+    border-radius: 5px;
+   
+}
+.membre{
+    margin-top: 5rem   ;
+    border-radius: 5px;
+   
+}
+.membre h3 {
+    color:#fff;
+    margin: 0;
+    background: #3C3B3B;
+    text-align: center;
+    padding: 1rem;
+}
+.date{
+    padding: 0.5rem;
+    font-size: 10px;
+    color:#585858;
+    float: right;
+}
+
+.fa-user{
+    color: #00E045;
+}
+.chat-deco {
+    background: rgba(255, 255, 255, 0.67);
+    padding: 1rem 3rem;
+    margin-bottom: 0.5rem;
+    animation-delay:1s;
+}
+.chat-text-deco {
+    text-transform : capitalize;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+    padding:0 0.5rem;
+
+}
+.message-deco{
+    padding: 1rem;
+}
+.gauche{
+    background: #00E045;
+    border-color: #0CCE48;
+    transition: 0.3s all ease;
+}
+
+.gauche:hover{
+    color: #00E045;
+    border-color: #fff;
+    background: #fff;
+}
+
+.droite{
+    background: #1A4EE0;
+    border-color: #1A4EE0;
+    transition: 0.3s all ease;
+}
+
+.droite:hover{
+    color: #1A4EE0;
+    border-color: #fff;
+    background: #fff;
+}
+
